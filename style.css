@@ -1,0 +1,166 @@
+body{
+    background-color: #333;
+    margin : 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: mintcream;
+    overflow: hidden
+  }
+  
+  .topnav a {
+    float: left;
+    color: midnightblue;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+  
+   .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(23, 0, 139);
+  }
+  
+  .topnav a.active {
+    background-color: midnightblue;
+    color: white;
+  }
+  
+  #abt{
+    background-image: url("https://www.teahub.io/photos/full/210-2104933_1920x1080-hd-wallpapers-dark-background-images-dark-background.jpg");
+    height: 600px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #edu{
+    background-color: rgb(15, 15, 15);
+    height: 600px;
+    color: antiquewhite;
+  }
+
+  #ski{
+    background-color: #cdced1;
+    height: 600px;
+    padding-bottom: 25px;
+  }
+
+  #cou{
+    background-color: yellow;
+    height: 10px;
+  }
+
+  #con{
+    background-color: rgb(128, 112, 66);
+    height: 200px;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  table{
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 5px 5px;
+  border-collapse:separate;
+}
+
+table, td{
+    padding: 30px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+th{
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+  color:#cdced1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.rows{
+  background:black;
+}
+
+.container {
+  width: 90%;
+  background-color: #ddd;
+  margin-left: 10px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%; 
+  background-color: #04AA6D;
+}
+.css {
+  width: 80%; 
+  background-color: #2196F3;
+}
+.js {
+  width: 75%; 
+  background-color: #f44336;
+}
+.python {
+  width: 80%; 
+  background-color: #f9ec3c;
+}
+.cpp {
+  width: 85%; 
+  background-color: rgb(18, 63, 68);
+}
+.sql {
+  width: 65%; background-color: #b630aa;
+}
+
+.contain{
+  padding-bottom: 50px;
+  margin-left: 10px;
+}
+
+
+a{
+  color: midnightblue;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.pp{
+  vertical-align:middle;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 80% 10%;
+  margin-top: 5px;
+  border: solid white;
+  position: absolute;
+  top: 200px;
+  margin-left: 900px;
+}
+
+.pm{
+  position: relative;
+  margin-left: 260px;
+  top: 90px;
+  font-size: 22px;
+}
+
+#ei{
+  text-align: center;
+  font-size: 35px;
+}
+
+.im i{
+  font-size: 30px;
+  margin: 0px 5px;
+}
